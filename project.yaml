@@ -5,8 +5,8 @@ repository: "https://github.com/subquery/subql-examples"
 schema: "./schema.graphql"
 
 network:
-  endpoint: "wss://polkadot.api.onfinality.io/public-ws"
-  dictionary: "https://api.subquery.network/sq/subquery/dictionary-polkadot"
+  endpoint: "wss://kusama.api.onfinality.io/public-ws"
+  dictionary: "https://api.subquery.network/sq/subquery/dictionary-kusama"
 
 dataSources:
   - name: runtime
